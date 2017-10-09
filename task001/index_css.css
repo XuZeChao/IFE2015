@@ -1,0 +1,61 @@
+* {margin:0; padding:0;}
+body {background: #e2e2e2}
+li {list-style: none;}
+a {text-decoration: none; color: white;}
+
+#header {width: 100%; height:80px; background: #47456D; position: relative;}
+#wrap_nav {width: 980px; height:80px; margin: 0 auto; position: relative;}
+#logo {position: absolute; bottom: 0px;}
+.nav {font-family: "宋体"; font-size: 14px; color: white; position: absolute; bottom: 5px; right: 0;}
+.nav ul li {margin-right: 28px; float: left;}
+.icon_github {position: absolute; right: 10px; bottom: -4px;}
+
+#banner {font-size: 0; position: relative;}
+#banner img{width:100%; height: 500px;}
+#banner_text {
+	width: 300px;
+	font-size: 12px;
+	color: white;
+	padding: 10px 10px 30px 10px;
+	position: absolute;
+	right: 110px;
+	bottom: 0;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(75%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+#banner_text h2 {font-size: 14px; text-align: right;/*右对齐*/ margin-bottom: 12px;}
+#banner_text p {line-height: 150%;}
+
+#index_content {width: 980px; margin: 0 auto; margin-top: 10px; overflow: hidden;}
+.post {width: 320px; float: left; background: white; padding-bottom: 1000px; margin-bottom: -1000px;}
+.post img {width:300px; height:180px; margin: 10px 10px 0 10px;}
+.post p {font-size: 12px; line-height: 170%; text-indent: 2em; margin: 15px 30px 25px 30px;}
+.post_margin {margin-right: 10px;}
+
+#information {width: 100%; height: 500px; background: white; margin-top: 110px; text-align: center;}
+#information img {width: 160px; height: 160px; border-radius: 50%; margin-top: -50px}
+#information h2 {font-size: 20px; font-family: Century Gothic; margin-top: 50px}
+#information p {width: 600px; font-size: 14px; text-indent: 2em; margin: 0 auto; text-align: left; margin-top: 50px}
+
+#footer {width: 100%; background: black; position: relative; font-size: 12px; color: white;}
+/*#footer_nav {height: 40px;}*/
+/*#footer_nav ul {position: absolute; left: 50%; top: 50%; margin-left: -112px; margin-top: -10px;}
+#footer_nav li {margin: position: relative;; color: white;}*/
+/*#footer_nav ul {float: left; position: relative; left: 50%; margin: 10px 0;}
+#footer_nav li {float: left; position: relative; right: 50%; margin: 0 12px;}*/
+#footer_nav {text-align: center;}
+#footer_nav ul {display: inline-block; margin: 10px 0;}
+#footer_nav li {margin: 0 12px; float: left;}
+
+#link {width: 980px; margin: 0 auto; overflow: hidden;}
+.link_section {width: 196px; float: left; margin-top: 72px; margin-bottom: 60px;}
+.link_section h2 {font-size: 12px; margin-bottom: 14px;}
+.link_section li {margin-bottom: 4px;}
+.copyright {text-align: center;}
+.copyright p {color: #fff; margin-bottom: 20px;}
